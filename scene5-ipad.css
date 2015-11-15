@@ -1,0 +1,89 @@
+
+#crouching {
+  width: 1045px;
+  height: 123px;
+  bottom: 0;
+  left: 0;
+  background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/sony-mobile-ipad-slider/img/crouchingLady.jpg');
+  background-size: 1045px 123px;
+}
+
+#flying {
+  width: 940px;
+  height: 340px;
+  left: 95%;
+  bottom: 0;
+  background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/sony-mobile-ipad-slider/img/flyingLady.png');
+  background-size: 940px 340px;
+}
+
+#logo {
+  top: 17px;
+  left: 17px;
+  width: 160px;
+  height: 28px;
+  background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/sony-mobile-ipad-slider/img/logo.png');
+  background-size: 160px 28px;
+}
+
+#cta {
+  width: 576px;
+  max-width: 576px;
+  height: 150px;
+  top: 0px;
+  right: -576px;
+  overflow: hidden;
+  opacity: 0;
+}
+
+#cta.show {
+  opacity: 1;
+  right: 0;
+}
+
+#cta-copy {
+  width: 576px;
+  height: 150px;
+  background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/sony-mobile-ipad-slider/img/cta_fade.png');
+  background-size: 576px 150px;
+  top: 0;
+  left: 0;
+}
+
+#arrow {
+  width: 23px;
+  height: 36px;
+  background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/sony-mobile-ipad-slider/img/arrow.png');
+  background-size: 23px 36px;
+  right: 50px;
+  top: 55px;
+  -webkit-animation: opacityPulse 2s linear infinite;
+}
+
+@-webkit-keyframes opacityPulse {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dppi) {
+
+  #crouching  { background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/sony-mobile-ipad-slider/img/crouchingLady@2x.jpg'); }
+
+  #flying     { background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/sony-mobile-ipad-slider/img/flyingLady@2x.png'); }
+
+  #logo       { background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/sony-mobile-ipad-slider/img/logo@2x.png'); }
+
+  #cta-copy   { background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/sony-mobile-ipad-slider/img/cta_fade@2x.png'); }
+
+  #arrow      { background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/sony-mobile-ipad-slider/img/arrow@2x.png'); }
+
+}

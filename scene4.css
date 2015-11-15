@@ -1,0 +1,145 @@
+
+/*
+  scene 4
+*/
+
+#bg {
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 960px;
+  background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/land-rover-iphone-slider/img/bg.jpg');
+  background-size: 960px 75px;
+}
+
+#car {
+  height: 59px;
+  width: 159px;
+  background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/land-rover-iphone-slider/img/car.png');
+  background-size: 100%; 
+  bottom: 0;
+  left: -159px;
+  z-index: 5;
+}
+
+#car .wheel {
+  height: 22px;
+  width: 23px;
+  bottom: 4px;
+  background-size: 23px 22px;
+}
+
+#rwheel {
+  background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/land-rover-iphone-slider/img/rwheel.png');
+  left: 20px;
+}
+
+#fwheel {
+  background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/land-rover-iphone-slider/img/fwheel.png');
+  left: 114px;
+}
+
+#logo {
+  top: 0;
+  left: 20px;
+  width: 69px;
+  height: 61px;
+  background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/land-rover-iphone-slider/img/logo.jpg');
+  background-size: 100%;
+}
+
+#main-copy {
+  width: 154px;
+  height: 27px;
+  background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/land-rover-iphone-slider/img/mainCopy.png');
+  background-size: 100%;
+  top: 33px;
+  left: 95px;
+  opacity: 1;
+}
+
+button#main-button {
+  outline: 0;
+  border: 1px solid #898989;
+  width: 0;
+  max-width: 157px;
+  height: 36px;
+  top: 21px;
+  left: 144px;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 0px -1px 7px #919191;
+  -webkit-animation: shadowPulse 4s linear infinite;
+  overflow: hidden;
+}
+
+@-webkit-keyframes shadowPulse {
+  0% {
+    box-shadow: 0px -1px 7px #919191;
+  }
+  80% {
+    box-shadow: 0px -1px 7px #919191;
+  }
+  90% {
+    box-shadow: 0px -1px 10px #fff;
+  }
+  100% {
+    box-shadow: 0px -1px 7px #919191;
+  }
+}
+
+#btn-copy {
+  width: 105px;
+  height: 20px;
+  background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/land-rover-iphone-slider/img/btnCopy.jpg');
+  background-size: 105px 20px;
+  top: 7px;
+  left: 15px;
+  border-right: 1px solid #d6d6d6;
+}
+
+#arrow {
+  width: 7px;
+  height: 10px;
+  background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/land-rover-iphone-slider/img/arrow.jpg');
+  background-size: 7px 10px;
+  left: 133px;
+  top: 12px;
+  -webkit-animation: opacityPulse 2s linear infinite;
+}
+
+@-webkit-keyframes opacityPulse {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) {
+  
+  #bg         { background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/land-rover-iphone-slider/img/bg@2x.jpg'); }
+
+  #car        { background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/land-rover-iphone-slider/img/car@2x.png'); }
+
+  #rwheel     { background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/land-rover-iphone-slider/img/rwheel@2x.png'); }
+
+  #fwheel     { background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/land-rover-iphone-slider/img/fwheel@2x.png'); }
+
+  #logo       { background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/land-rover-iphone-slider/img/logo@2x.jpg'); }
+
+  #main-copy  { background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/land-rover-iphone-slider/img/mainCopy@2x.png'); }
+
+  #btn-copy       { background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/land-rover-iphone-slider/img/btnCopy@2x.jpg'); }
+
+  #arrow       { background-image: url('http://arnold.lemonde-interactif.fr/~rasoahaingo/pub/land-rover-iphone-slider/img/arrow@2x.jpg'); }
+
+}

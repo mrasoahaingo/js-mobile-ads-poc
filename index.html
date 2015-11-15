@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+<body>
+
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" type="text/css" href="scene2.css"/>
+
+<script>
+  window.debug = true;
+  window.scene = {
+    config: {
+      scene: 'scene2',
+      title: 'Chanel Resize',
+      min_height: 50,
+      max_height: 150,
+      resize: true,
+      bg_color: '#000'
+    },
+    template: '<div class="lmd-ads-scene lmd-ads-scene2 state-first-half" id="lmd-ads-scene2">' +
+      '<div class="lmd-ads-container lmd-ads-layer lmd-ads-layer-watch" id="lmd-ads-container-scene2">' +
+      '<div class="lmd-ads-layer layer-bg anim-fade-inout" data-center="0.5" data-width="2" style="background-image: url(http://i57.tinypic.com/29girmv.png)"></div>' +
+      '<div class="lmd-ads-layer layer-fixed layer-watch-hands">' +
+      '<img class="lmd-ads-layer layer-fixed layer-hand1 anim-rotation anim-fade-inout" data-center="0.5" data-width="2" data-speed="2" src="http://i58.tinypic.com/faps34.png" />' +
+      '<img class="lmd-ads-layer layer-fixed layer-hand2 anim-rotation anim-fade-inout" data-center="0.5" data-width="2" data-speed="0.3" src="http://i60.tinypic.com/w2lzdh.png" />' +
+      '<img class="lmd-ads-layer layer-fixed layer-hand3 anim-rotation anim-fade-inout" data-center="0.5" data-width="2" data-speed="0.05" src="http://i60.tinypic.com/t85b0g.png" />' +
+      '</div>' +
+      '<img class="lmd-ads-layer layer-fixed layer-txt" src="http://i62.tinypic.com/2wd2f60.png" />' +
+      '</div>' +
+      '</div>'
+  };
+</script>
+
+<div id="ads-in-content"></div>
+
+<script src="http://ak-ns.sascdn.com/diff/templates/js/mobile/mraid/bridges/android-sdk-mraid-bridge-2.1.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

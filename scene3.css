@@ -1,0 +1,18 @@
+
+/*
+  scene 3
+*/
+
+.lmd-ads-scene3 .layer-bg {
+  background-size: auto 200px;
+}
+.lmd-ads-scene3 .layer-txt {
+  width: 100%;
+}
+.layer-phone {
+  width: 156px;
+  height: 155px;
+  top: 50%;
+  left: 65%;
+  margin: -77px 0 0 -77px;
+}
